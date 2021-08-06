@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: #EDF2F9;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-mat {
+    box-shadow: rgba(0,0,0,0.3) 0 6px 15px;
+}
+.form-control, .btn {
+    box-shadow: rgba(0,0,0,0.05) 0 1px 10px;
+}
+.row {
+    display: flex;
+
+}
+.addb {
+    border: 0;
+    margin: 0 !important;
+    padding: 0;
+}
+.addb .card-header {
+    background: #fff;
+    padding: 12px 8px 8px 15px;
+}
+.card-body {
+    padding: 1rem 1rem;
+}
+.bg-work1 {
+    background: rgb(186,94,255);
+    background: -moz-linear-gradient(90deg, rgba(186,94,255,1) 0%, rgba(161,47,247,1) 35%, rgba(98,0,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(186,94,255,1) 0%, rgba(161,47,247,1) 35%, rgba(98,0,255,1) 100%);
+    background: linear-gradient(90deg, rgba(186,94,255,1) 0%, rgba(161,47,247,1) 35%, rgba(98,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba5eff",endColorstr="#6200ff",GradientType=1);
+}
+.container {
+    margin-top: 40px;
+    max-width: 960px !important;
+}
+.modal-dialog {
+    max-width: 960px !important;
+}
+.book {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px;
+    margin-bottom: 10px;
+}
+.book:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    z-index: 15;
+}
+.book .author, .book .pages {
+    font-size: 0.8em;
+}
+.book .pages {
+    margin-bottom: 10px;
+}
+.modal-dialog {
+    z-index: 200;
+}
+#book_add {
+    padding: 0;
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: .375rem;
+    box-shadow: rgba(0,0,0, 0.11) 0 4px 8px;
+}
+
+.row.head {
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: .375rem;
+    box-shadow: rgba(0,0,0, 0.11) 0 4px 8px;
+    text-align: center;
+}
+
+.row.head span {
+    font-size: 17px;
+}
+
+.list-group-item.active
+{
+    background-color: #a12ff7;
+    border-color: #b250fd;
+}
+
+.btn-primary {
+    background: rgb(186,94,255);
+    background: -moz-linear-gradient(90deg, rgba(186,94,255,1) 0%, rgba(161,47,247,1) 35%, rgba(98,0,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(186,94,255,1) 0%, rgba(161,47,247,1) 35%, rgba(98,0,255,1) 100%);
+    background: linear-gradient(90deg, rgba(186,94,255,1) 0%, rgba(161,47,247,1) 35%, rgba(98,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba5eff",endColorstr="#6200ff",GradientType=1);
+    border-color: #b250fd;
+    box-shadow: rgba(161,47, 247, 0.68) 0 2px 15px;
+}
+.btn-primary:hover {
+    background-color: #c67bff;
+    border-color: #c67bff;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    background-color: #8522d0;
+    border-color: #a12ff7;
+    box-shadow: 0 0 0 0.25rem rgb(203 133 255);
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    background-color: #a12ff7;
+    border-color: #b250fd;
+}
+
+.cover {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
