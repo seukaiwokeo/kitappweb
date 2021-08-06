@@ -22,7 +22,7 @@ Kitappweb is an interactive mixed and unique virtual library based on the concep
 This app is completely developed by @seukaiwokeo
 
 - [PHP 8](https://github.com/php/php-src)
-- [Laravel](https://github.com/laravel/laravel)
+- [Laravel 8*](https://github.com/laravel/laravel)
 - [Boostrap 5](https://github.com/twbs/bootstrap)
 - [MYSQL](https://github.com/mysql)
 
