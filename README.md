@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://i.hizliresim.com/qa2mopn.png" width="1000"></p>
+<p align="center"><img src="https://github.com/seukaiwokeo/kitappweb/raw/master/public/images/app/kitappweb-brand.png" width="1000"></p>
 
 <p align="center">
 <img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status">
