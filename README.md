@@ -23,7 +23,7 @@ This app is completely developed by @seukaiwokeo
 
 - [PHP 8](https://github.com/php/php-src)
 - [Laravel 8*](https://github.com/laravel/laravel)
-- [Boostrap 5](https://github.com/twbs/bootstrap)
+- [Bootstrap 5](https://github.com/twbs/bootstrap)
 - [MYSQL](https://github.com/mysql)
 
 ## Security Vulnerabilities
